@@ -1,0 +1,52 @@
+# Flutter/Dart specific
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/pubspec.lock
+**/.idea/
+**/.vscode/
+**/.DS_Store
+
+# Flutter iOS specific
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Flutter Android specific
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+android/key.properties
+
+# Flutter macOS specific
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.*
+
+# Flutter Windows specific
+windows/flutter/ephemeral/
+windows/flutter/GeneratedPluginRegistrant.*
+
+# Flutter Linux specific
+linux/flutter/ephemeral/
+linux/flutter/GeneratedPluginRegistrant.*
+
+# Flutter Web specific
+web/flutter/ephemeral/
+
+# Other
+**/coverage/
+*.log
+*.lock
+*.tmp
+*.swp
+*.swo
+*.swn
